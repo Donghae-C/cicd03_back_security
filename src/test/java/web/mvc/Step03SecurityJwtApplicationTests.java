@@ -8,7 +8,7 @@ class Step03SecurityJwtApplicationTests {
 
     @Test
     void contextLoads() {
-        throw new RuntimeException();
+        //throw new RuntimeException(); 배포 실패용 코드
     }
 
 }
