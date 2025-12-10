@@ -18,9 +18,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
   public void addCorsMappings(CorsRegistry registry) {
      registry.addMapping("/**")
     // .allowedOrigins("http://localhost:5173","http://localhost:4173")
-       .allowedOrigins("http://3.38.98.228", "http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr")
+       //.allowedOrigins("http://3.38.98.228", "http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr")
       //.allowedOrigins("http://43.203.170.229", "http://43.203.170.229:80")
-      //.allowedOrigins("http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr")
+      .allowedOrigins("http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr")
      .allowedMethods("OPTIONS","GET","POST","PUT","DELETE");
   }
 }

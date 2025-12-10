@@ -56,8 +56,8 @@ public class SecurityConfig {
                         CorsConfiguration configuration = new CorsConfiguration();
                         //configuration.setAllowedOrigins(Collections.singletonList("http://localhost:5173"));
                         //configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://localhost:4173"));
-                        configuration.setAllowedOrigins(Arrays.asList("http://3.38.98.228", "http://3.38.98.228:80","http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr"));
-                        //configuration.setAllowedOrigins(Arrays.asList("http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr"));
+                        //configuration.setAllowedOrigins(Arrays.asList("http://3.38.98.228", "http://3.38.98.228:80","http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr"));
+                        configuration.setAllowedOrigins(Arrays.asList("http://testdhhome.p-e.kr", "https://testdhhome.p-e.kr"));
                         configuration.setAllowedMethods(Collections.singletonList("*"));
                         configuration.setAllowCredentials(true);
 
