@@ -8,6 +8,7 @@ class Step03SecurityJwtApplicationTests {
 
     @Test
     void contextLoads() {
+        throw new RuntimeException();
     }
 
 }
